@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+section{
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.heading h2{
+    font-size: 4rem;
+    color: black;
+    font-family: 'pacifico', cursive;
+    margin-bottom: 8rem;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border-radius: 50%;
+}
+.btn:hover{
+    background-color: dimgrey;
+}
+.btn2{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border-radius: 50%;
+}
+.btn2:hover{
+    background-color: dimgrey;
+}
+
+.header{
+    position: sticky;
+    top:0; left: 0; right: 0;
+    background-color: white;
+    box-shadow:0 .5rem 1rem #666;
+    z-index: 1000;
+    font-size: 20px;
+    
+}
+.header .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.5rem 2rem;
+}
+.header .flex .logo img{
+    height: 50px;
+}
+.header .flex .navbar a{
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: black;
+}
+.header .flex .navbar a:hover{
+    text-decoration: underline;
+    color: #666;
+}
+.home-bg{
+    background: url(/Images/catcafe.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.home-bg .home{
+    min-height: 50rem;
+    display: flex;
+    align-items: center;
+}
+.home-bg .home .content{
+    width: 50rem;
+    text-align: center;
+}
+.home-bg .home .content h3{
+    font-size: 6rem;
+    font-family: 'pacifico', cursive;
+    color: white;
+}
+.home-bg .home .content p{
+    padding: 1rem 0;
+    font-size: 3rem;
+    color: white;
+    line-height: 2;
+    font-family: 'Tilt Warp', cursive;
+}
+.req .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+.req .box-container .box{
+    text-align: center;
+
+}
+.req .box-container .box img{
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+.req .box-container .box h3{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.enjoy .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.enjoy .box-container .box{
+    text-align: center;
+}
+.enjoy .box-container .box img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.enjoy .box-container .box h3{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.contact .row .image{
+    flex:1 1 50rem;
+}
+.contact .row .image img{
+    width: 100%;
+}
+.contact .row form{
+    flex:1 1 30rem;
+    border: 0.5rem solid black;
+    padding: 2rem;
+    text-align: center;
+}
+.contact .row form .box{
+    width: 100%;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: black;
+    border: 0.1rem solid black;
+    margin: 1rem 0;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+
+}
+.footer .box-container .box{
+    text-align: center;
+
+}
+.footer .box-container .box i{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: rgb(153, 155, 150);
+    color: white;
+    margin-bottom: .5rem;
+}
+.footer .box-container .box h3{
+    margin: .5rem;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.footer .box-container .box p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: dimgray;
+}
+.footer .credit{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: .1rem solid black;
+    font-size: 2rem;
+    color: black;
+}
+.footer .credit span{
+    color: dimgray
+}
+.final .finale{
+    background-image: url(/Images/finale.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 50rem;
+    display: flex;
+    align-items: center;
+}

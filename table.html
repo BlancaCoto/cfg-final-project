@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFG Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="index.html" class="logo"><img src="Images/cat-icon-vector-cat-icon-vector-logo-design-illustrator-144752392.jpeg"></a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="cats.html">Our Cats</a>
+                <a href="#contact">Contact</a>
+                <a href="https://www.google.com/">Meow</a>
+            </nav>
+        </section>
+        
+
+    </header>
+    <section class="contact">
+        <div class="heading">
+            <h2>book a table</h2>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="/Images/table.jpeg" alt="">
+            </div>
+            <form action="" method="post">
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+                <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+                <input type="submit" name="send" value="book" class="btn2">
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>our email</h3>
+                <p>nekocafe@gmail.com</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>our number</h3>
+                <p>+447689278902</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>9:00am to 7:00pm</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>cafe location</h3>
+                <p>Wakefield, UK</p>
+            </div>
+        </div>
+        <div class="credit"> &copy; copyright @ 2023 by <span>CFG Group A</span> | all rights reserved </div>
+    </section>   
